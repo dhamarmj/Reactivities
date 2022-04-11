@@ -15,6 +15,7 @@ export default function NavBar() {
           />
         </Menu.Item>
         <Menu.Item as={NavLink} to="/activities" name="Activities" />
+        <Menu.Item as={NavLink} to="/errors" name="Errors" />
         <Menu.Item>
           <Button
             as={NavLink}
@@ -23,6 +24,7 @@ export default function NavBar() {
             content="Create Activity"
           />
         </Menu.Item>
+        {/* <Route path="/errors" component={TestError} /> */}
       </Container>
     </Menu>
   );
